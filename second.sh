@@ -1,4 +1,4 @@
-printenv $http_proxy > /usr/local/envvar.txt
+printenv > /usr/local/envvar.txt
 echo $http_proxy > /usr/local/envvar2.txt
 
 curl https://www.bing.com/ --output /usr/local/bing18.html
