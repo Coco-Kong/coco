@@ -37,5 +37,5 @@ https_proxy = http://proxy.education.tas.gov.au:8081
 # Update Search Domains / DNS if not found
 grep -qw "search education.tas.gov.au" /etc/resolv.conf || { echo "Setting Search Domains ..." && echo search education.tas.gov.au | sudo -i tee -a /etc/resolv.conf; }
 
-curl https://www.bing.com/ --output /usr/local/bing.html
-curl -v https://vstsagentpackage.azureedge.net/agent/2.190.0/vsts-agent-linux-x64-2.190.0.tar.gz --output /usr/local/vsts-agent-linux-x64-2.190.0.tar.gz
+curl https://www.bing.com/ --output /usr/local/bing18.html
+curl -v https://vstsagentpackage.azureedge.net/agent/2.190.0/vsts-agent-linux-x64-2.190.0.tar.gz --output /usr/local/18.tar.gz
