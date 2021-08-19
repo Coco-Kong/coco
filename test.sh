@@ -4,12 +4,6 @@
 #General proxy config - different programs use upper or lower case, so we set both.
 #Note the /etc/profile.d/*.sh files are executed for every user.
 
-echo '
-# DOE Proxy Configuration
-HttpProxy.Host=proxy.education.tas.gov.au
-HttpProxy.Port=8081
-' | sudo -i tee -a /etc/waagent.conf
-
 echo "Setting Proxy..."
 echo "#!/bin/bash
 export HTTP_PROXY=\"http://proxy.education.tas.gov.au:8081\"
