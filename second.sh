@@ -1,3 +1,5 @@
+touch /usr/local/envvar.txt
+touch /usr/local/envvar2.txt
 printenv > /usr/local/envvar.txt
 echo $http_proxy > /usr/local/envvar2.txt
 
