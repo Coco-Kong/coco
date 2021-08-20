@@ -4,4 +4,7 @@
 #HttpProxy.Port=8081
 #' | sudo -i tee -a /etc/waagent.conf
 
-id >> /usr/local/envvar20.txt
+touch /usr/local/envvar22.txt
+printenv > /usr/local/envvar22.txt
+id >> /usr/local/envvar22.txt
+
