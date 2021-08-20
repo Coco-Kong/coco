@@ -9,3 +9,4 @@ id >> /usr/local/envvar21.txt
 #curl https://raw.githubusercontent.com/Coco-Kong/coco/master/testDownloadAgent.py --output /usr/local/test18.py
 #python3 /usr/local/test18.py
 
+#Defaults env_keep += "ftp_proxy http_proxy https_proxy no_proxy"
