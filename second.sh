@@ -1,7 +1,7 @@
 #touch /usr/local/envvar.txt
-#touch /usr/local/envvar20.txt
-#printenv > /usr/local/envvar20.txt
-id >> /usr/local/envvar20.txt
+touch /usr/local/envvar21.txt
+printenv > /usr/local/envvar21.txt
+id >> /usr/local/envvar21.txt
 #echo $http_proxy > /usr/local/envvar2.txt
 
 #curl https://www.bing.com/ --output /usr/local/bing20.html
