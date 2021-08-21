@@ -4,5 +4,5 @@
 #cd myagent
 #gzip -d < /usr/local/agent2021.tar.gz | tar xvf -
 #mkdir work
-./config.sh --unattended --agent vmssagentspoolWESTUS_9 --url https://dev.azure.com/yuekon/ --auth PAT --token 4uai5jdo6yowdz5ir5y32g7sxec56qau4z2hgsgzrt4nxcrmgkqq --pool win10 --work /usr/local/work --replace --acceptTeeEula & wait $!
+./config.sh --unattended --agent vmssagentspoolWESTUS_18 --url https://dev.azure.com/yuekon/ --auth PAT --token 4uai5jdo6yowdz5ir5y32g7sxec56qau4z2hgsgzrt4nxcrmgkqq --pool win10 --work /usr/local/work --replace --acceptTeeEula & wait $!
 ./run.sh
